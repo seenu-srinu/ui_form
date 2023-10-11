@@ -174,7 +174,7 @@ setTicketDetails(fetchedRes)
             
                 <>
            { Object.keys(item.ticket_attribute_jsonschema_data.jsonschema.properties).map((key) => {
-                let i = item.ticket_attribute_jsonschema_data.jsonschema.properties[key]
+                 i = item.ticket_attribute_jsonschema_data.jsonschema.properties[key]
                 return <Row>
                         <Col md={6} sm={6}>{i.name}</Col>
                         <Col md={6} sm={6}>
